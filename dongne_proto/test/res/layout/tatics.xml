@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+       android:background="@drawable/board"
+     >
+  
+
+           
+     <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:layout_y="0dip" 
+    android:layout_x="0dip" 
+     android:id="@+id/ball1"
+    android:src="@drawable/player1"
+    
+    >
+   </ImageView>
+
+      <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:layout_y="0dip" 
+    android:layout_x="0dip" 
+     android:id="@+id/ball2"
+    android:src="@drawable/player2">
+   </ImageView>
+   
+        <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball3"
+    android:src="@drawable/player3">
+   </ImageView>
+   
+         <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball4"
+    android:src="@drawable/player4">
+   </ImageView>
+   
+          <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball5"
+    android:src="@drawable/player5">
+   </ImageView>
+   
+           <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball6"
+    android:src="@drawable/player6">
+   </ImageView>
+   
+            <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball7"
+    android:src="@drawable/player7">
+   </ImageView>
+   
+             <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball8"
+    android:src="@drawable/player8">
+   </ImageView>
+   
+              <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball9"
+    android:src="@drawable/player9">
+   </ImageView>
+   
+               <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball10"
+    android:src="@drawable/player10">
+   </ImageView>
+   
+                <ImageView 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"
+     android:layout_y="0dip" 
+    android:layout_x="0dip"  
+     android:id="@+id/ball11"
+    android:src="@drawable/player11">
+   </ImageView>
+  
+
+    </AbsoluteLayout>
+    
+    
+    
+    

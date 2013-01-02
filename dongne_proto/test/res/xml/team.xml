@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <ListPreference 
+        android:entries="@array/team1_array" 
+        android:title="공/수 성향" 
+        android:entryValues="@array/team1_array" 
+        android:summary="선택하시오" 
+        android:key="keyList1"
+        
+/>
+    
+     <ListPreference 
+        android:entries="@array/team2_array" 
+        android:title="패스 유형" 
+        android:entryValues="@array/team2_array" 
+        android:summary="선택하시오" 
+        android:key="keyList2"
+      
+/>
+     
+     <ListPreference 
+        android:entries="@array/team3_array" 
+        android:title="플레이 자유도" 
+        android:entryValues="@array/team3_array" 
+        android:summary="선택하시오" 
+        android:key="keyList3"
+      
+/>
+     
+     <ListPreference 
+        android:entries="@array/team4_array" 
+        android:title="압박 수비" 
+        android:entryValues="@array/team4_array" 
+        android:summary="선택하시오" 
+        android:key="keyList4"
+      
+/>
+     
+     <ListPreference 
+        android:entries="@array/team5_array" 
+        android:title="태클" 
+        android:entryValues="@array/team5_array" 
+        android:summary="선택하시오" 
+        android:key="keyList5"
+      
+/>
+     
+     <ListPreference 
+        android:entries="@array/team6_array" 
+        android:title="일대일 마크" 
+        android:entryValues="@array/team6_array" 
+        android:summary="선택하시오" 
+        android:key="keyList6"
+      
+/>
+  
+     
+     <ListPreference 
+        android:entries="@array/team7_array" 
+        android:title="크로스" 
+        android:entryValues="@array/team7_array" 
+        android:summary="선택하시오" 
+        android:key="keyList7"
+      
+/>
+     
+     <ListPreference 
+        android:entries="@array/team8_array" 
+        android:title="포지션 자유도" 
+        android:entryValues="@array/team8_array" 
+        android:summary="선택하시오" 
+        android:key="keyList8"
+      
+/>
+     
+     
+      <ListPreference 
+        android:entries="@array/team9_array" 
+        android:title="수비 라인" 
+        android:entryValues="@array/team9_array" 
+        android:summary="선택하시오" 
+        android:key="keyList9"
+      
+/>
+      
+       <ListPreference 
+        android:entries="@array/team10_array" 
+        android:title="좌우폭" 
+        android:entryValues="@array/team10_array" 
+        android:summary="선택하시오" 
+        android:key="keyList10"
+      
+/>
+       
+        <ListPreference 
+        android:entries="@array/team11_array" 
+        android:title="템포" 
+        android:entryValues="@array/team11_array" 
+        android:summary="선택하시오" 
+        android:key="keyList11"
+      
+/>
+        
+         <ListPreference 
+        android:entries="@array/team12_array" 
+        android:title="시간 보내기" 
+        android:entryValues="@array/team12_array" 
+        android:summary="선택하시오" 
+        android:key="keyList12"
+      
+/>
+         
+          <ListPreference 
+        android:entries="@array/team13_array" 
+        android:title="패스 방향" 
+        android:entryValues="@array/team13_array" 
+        android:summary="선택하시오" 
+        android:key="keyList13"
+      
+/>
+   
+          <CheckBoxPreference    
+        android:title="역습"
+        android:key="attack"
+        android:defaultValue="false"   
+/>
+
+           <CheckBoxPreference    
+        android:title="오프사이드 트랩"
+        android:key="ops"
+        android:defaultValue="false"   
+/>
+           
+</PreferenceScreen>

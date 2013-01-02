@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@drawable/main"
+    android:orientation="vertical" >
+
+      <ImageView
+          android:layout_width="246dp"
+          android:layout_height="91dp"
+          android:layout_x="-12dp"
+          android:layout_y="78dp"
+          android:src="@drawable/title" />
+
+      <ImageButton
+          android:id="@+id/teamButton"
+          android:layout_width="157dp"
+          android:layout_height="wrap_content"
+          android:layout_x="110dp"
+          android:layout_y="306dp"
+          android:background="#00000000"
+          android:onClick="teamClick"
+          android:src="@drawable/btn3" />
+
+      <ImageButton
+          android:id="@+id/playerButton"
+          android:layout_width="238dp"
+          android:layout_height="wrap_content"
+          android:layout_x="26dp"
+          android:layout_y="160dp"
+          android:background="#00000000"
+          android:onClick="playerClick"
+          android:src="@drawable/btn1" />
+
+      <ImageButton
+          android:id="@+id/taticsButton"
+          android:layout_width="167dp"
+          android:layout_height="wrap_content"
+          android:layout_x="80dp"
+          android:layout_y="233dp"
+          android:background="#00000000"
+          android:onClick="taticsClick"
+          android:src="@drawable/btn2" />
+
+      <ImageButton
+          android:id="@+id/memoButton"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_x="159dp"
+          android:layout_y="377dp"
+          android:background="#00000000"
+          android:onClick="memoClick"
+          android:src="@drawable/btn4" />
+
+</AbsoluteLayout>

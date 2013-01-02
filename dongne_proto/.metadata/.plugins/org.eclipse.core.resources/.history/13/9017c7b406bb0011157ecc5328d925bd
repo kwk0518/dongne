@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">동네축구</string>
+    
+    
+<string-array
+    name="team1_array">
+    <item>극단적 수비</item>
+    <item>수비형</item>
+    <item>역습형</item>
+    <item>일반형</item>
+    <item>지배형</item>
+    <item>공격형</item>
+    <item>극단적 공격형</item>
+</string-array>
+
+
+<string-array
+    name="team2_array">
+    <item>짧게</item>
+    <item>보통</item>
+    <item>다이렉트</item>
+</string-array>
+
+<string-array
+    name="team3_array">
+    <item>자유롭게</item>
+    <item>보통</item>
+    <item>전술대로</item>
+</string-array>
+
+<string-array
+    name="team4_array">
+    <item>자주 압박을 가함</item>
+    <item>보통</item>
+    <item>상대선수와 거리유지</item>
+</string-array>
+
+<string-array
+    name="team5_array">
+    <item>적극적으로 </item>
+    <item>보통</item>
+    <item>신중하게</item>
+</string-array>
+
+<string-array
+    name="team6_array">
+    <item>지역방어</item>
+    <item>보통</item>
+    <item>대인마크</item>
+</string-array>
+
+<string-array
+    name="team7_array">
+    <item>높은 크로스</item>
+    <item>보통</item>
+    <item>짧은 크로스</item>
+</string-array>
+
+<string-array
+    name="team8_array">
+    <item>포지션 고수</item>
+    <item>보통</item>
+    <item>자유롭게</item>
+</string-array>
+
+<string-array
+    name="team9_array">
+    <item>내림</item>
+    <item>보통</item>
+    <item>올림</item>
+</string-array>
+
+<string-array
+    name="team10_array">
+    <item>좁게</item>
+    <item>보통</item>
+    <item>넓게</item>
+</string-array>
+
+<string-array
+    name="team11_array">
+    <item>느리게</item>
+    <item>보통</item>
+    <item>빠르게</item>
+</string-array>
+
+<string-array
+    name="team12_array">
+    <item>드물게</item>
+    <item>보통</item>
+    <item>자주</item>
+</string-array>
+
+<string-array
+    name="team13_array">
+    <item>혼합</item>
+    <item>좌우측면으로</item>
+    <item>왼쪽측면으로</item>
+    <item>오른쪽측면으로</item>
+    <item>중앙으로</item>
+</string-array>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+        android:stretchColumns="0"
+         >
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="#F8F8FF"
+            android:text="주전 선수"
+            android:textColor="#000000"
+            android:textSize="10pt" />
+ 
+<TableRow>
+    
+    
+   <EditText 
+       android:id="@+id/position1"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+             
+       />
+   
+   <EditText 
+       android:id="@+id/num1"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/position1"
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name1"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/num1"
+          
+       />
+   
+   </TableRow>
+   /////////////////
+   <TableRow>
+    <EditText 
+       android:id="@+id/position2"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num2"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+  
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name2"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+    
+          
+       />
+   </TableRow>
+   //////////////////////////////////
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position3"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+      
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num3"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+   
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name3"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+       
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position4"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+       
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num4"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+     
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name4"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+     
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position5"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+      
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num5"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name5"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+       
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position6"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+    
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num6"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+    
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name6"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position7"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num7"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name7"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position8"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num8"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name8"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position9"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num9"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name9"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position10"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num10"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name10"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position11"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num11"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name11"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="                교체 선수"
+       	android:textSize="10pt"
+        android:textColor="#000000"
+        android:background="#F8F8FF"
+        android:layout_margin="10dip"
+        />
+   
+   
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position12"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num12"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name12"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position13"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num13"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name13"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position14"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num14"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name14"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+   <TableRow>
+   
+   <EditText 
+       android:id="@+id/position15"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num15"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name15"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+    <TableRow>
+   
+   <EditText 
+       android:id="@+id/position16"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num16"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name16"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+     <TableRow>
+   
+   <EditText 
+       android:id="@+id/position17"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num17"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name17"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+
+      <TableRow>
+   
+   <EditText 
+       android:id="@+id/position18"
+       android:layout_width="150px"
+       android:layout_height="wrap_content"
+   
+             
+       />
+   
+    <EditText 
+       android:id="@+id/num18"
+       android:layout_width="100px"
+       android:layout_height="wrap_content"
+      
+           
+       />
+   
+   <EditText 
+       android:id="@+id/name18"
+       android:layout_width="250px"
+       android:layout_height="wrap_content"
+      
+          
+       />
+</TableRow>
+    
+</TableLayout>
+
+</ScrollView>

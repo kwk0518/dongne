@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@drawable/main"
+    android:orientation="vertical" >
+    
+    <Button
+         android:id="@+id/taticsButton"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_x="100dp"
+         android:layout_y="250dp"
+         android:onClick="taticsClick"
+         android:text="포메이션" />
+
+
+     <Button
+         android:id="@+id/teamButton"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_x="100dp"
+         android:layout_y="300dp"
+         android:onClick="teamClick"
+         android:text=" 팀 전술  " />
+     
+      <Button
+         android:id="@+id/memoButton"
+         android:layout_width="120dp"
+         android:layout_height="wrap_content"
+         android:layout_x="100dp"
+         android:layout_y="350dp"
+         android:onClick="memoClick"
+         android:text=" 메 모  " />
+
+      <ImageView
+          android:layout_width="246dp"
+          android:layout_height="91dp"
+          android:layout_x="-9dp"
+          android:layout_y="84dp"
+          android:src="@drawable/title" />
+
+      <ImageButton
+          android:id="@+id/playerButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_x="56dp"
+          android:layout_y="138dp"
+          android:onClick="playerClick"
+          android:background="#00000000"
+          android:src="@drawable/btn1" />
+
+</AbsoluteLayout>
